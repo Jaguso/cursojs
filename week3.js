@@ -99,3 +99,34 @@ function isIncluded(arr, elem) {
 // $ git config --global user.email "email"
 
 // $ git config --list  -> te da información de qué usuario está configurdo 
+
+
+
+// OBJETOS
+
+// Un objeto tiene esta estructura
+let obj = {key1: value1, key2: value2, ...}
+
+let obj = {'apples': 3, 'bananas': 4, 'limes': 7};
+
+console.log(obj['limes'])
+
+let arr = ['luis', 'pedro', 85, 'hugo'];
+arr[1] // -> 'pedro'
+
+let obj = {0: 'luis', 1: 'pedro', 2: 85, 3: 'hugo'};
+obj[1] // -> 'pedro'
+
+let obj = {'apples': 3, 'bananas': 4, 'limes': 7};
+
+
+
+for (a in obj) {
+    console.log(a) // -> esto hace un for en los keys del objeto obj
+}
+
+
+
+// JSON (Javascript Objet Notation)
+
+{"success": true, "data": ['spdj', 'sodifjsd', 23]}
