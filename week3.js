@@ -121,7 +121,7 @@ let obj = {'apples': 3, 'bananas': 4, 'limes': 7};
 
 
 
-for (a in obj) {
+for (let a in obj) {
     console.log(a) // -> esto hace un for en los keys del objeto obj
 }
 
